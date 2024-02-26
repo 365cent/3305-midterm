@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Managing what is in memory and when is the responsibility of the running process",
+        "options": ["True", "False"],
+        "answer": "False"
+    },
+    {
+        "question": "Which of the following is not a factor to consider when deciding which storage medium to use",
+        "options": ["Volatility", "Cost", "Speed", "Weight"],
+        "answer": "Weight"
+    },
+    {
+        "question": "To prevent a process from running too long the operating system uses a",
+        "options": ["DMA to limit CPU time", "Switch", "Cache", "Timer"],
+        "answer": "Timer"
+    },
+    {
+        "question": "Main memory is an example of Nonvolatile storage (NVS)",
+        "options": ["True", "False"],
+        "answer": "False"
+    },
+    {
+        "question": "Which of the following is not a service commonly provided by an operating system?",
+        "options": ["Process communication", "I/O operations", "Error detection", "Code compilation"],
+        "answer": "Code compilation"
+    },
+    {
+        "question": "Which of the following is not a component of a process?",
+        "options": ["Heap", "These are all components of a process", "Stack", "Text"],
+        "answer": "These are all components of a process"
+    },
+    {
+        "question": "A context switch consumes CPU time",
+        "options": ["True", "False"],
+        "answer": "True"
+    },
+    {
+        "question": "A parent and child process always share the same block of memory",
+        "options": ["True", "False"],
+        "answer": "False"
+    },
+    {
+        "question": "A parent process must wait for its child processes to finish before it can execute instructions.",
+        "options": ["True", "False"],
+        "answer": "False"
+    },
+    {
+        "question": "If a program declares a variable before a fork() the child and the parent can communicate with one another using that variable.",
+        "options": ["True", "False"],
+        "answer": "False"
+    },
+    {
+        "question": "Which of the following is a reason why two processes may want to cooperate?",
+        "options": ["Speed", "Convenience", "Sharing Information", "All of these"],
+        "answer": "All of these"
+    },
+    {
+        "question": "When two processes communicate using an unbounded buffer, the producer may need to wait before writing to the buffer.",
+        "options": ["True", "False"],
+        "answer": "False"
+    },
+    {
+        "question": "The greater the serial portion of a task, the greater the expected performance gains by adding parallelism.",
+        "options": ["True", "False"],
+        "answer": "False"
+    },
+    {
+        "question": "Suppose a program can run 10% serial and 90% parallel. Using Amdahl's Law, calculate the expected performance gain by adding 16 cores.",
+        "options": ["15", "3.3", "6.4", "12.1"],
+        "answer": "6.4"
+    },
+    {
+        "question": "Which of the following is not a benefit of multithreading?",
+        "options": ["Threads can easily share variables", "CPU instructions execute faster when run in a thread", "Applications respond to user input faster", "Threads can run on multiple CPUs or multiple cores concurrently"],
+        "answer": "CPU instructions execute faster when run in a thread"
+    },
+    {
+        "question": "In a nonpreemptive scheduling scheme, the next process to run is",
+        "options": ["The next process in the queue", "The process in the queue with the highest priority", "A randomly selected process", "The process in the queue with the shortest run time"],
+        "answer": "The next process in the queue"
+    },
+    {
+        "question": "One drawback to Priority scheduling is",
+        "options": ["Longer average waiting time compared to most other scheduling algorithms", "Process priority cannot change", "All of these", "The potential for starvation"],
+        "answer": "The potential for starvation"
+    },
+    {
+        "question": "In Round-Robin CPU scheduling, if there are 10 processes in the ready queue and the time quantum is 3ms, then no process waits more than",
+        "options": ["None of these", "20ms", "30ms", "27ms"],
+        "answer": "27ms"
+    },
+    {
+        "question": "In Multilevel queue scheduling, which of the following is not true?",
+        "options": ["Processes can move between the queues", "Starvation is possible", "Each queue is assigned a priority level", "Different queues can use different scheduling algorithms"],
+        "answer": "Processes can move between the queues"
+    },
+    {
+        "question": "To balance tasks across multicores, an operating system may employ which strategy?",
+        "options": ["Periodically check for cores with too many tasks and push some of those tasks to other cores", "Either strategy could be used", "Periodically check for cores that have too few tasks and pull some tasks from other cores"],
+        "answer": "Either strategy could be used"
+    },
+    {
+        "question": "Shared data that is always read-only does not necessarily need to be used in a critical section.",
+        "options": ["True", "False"],
+        "answer": "True"
+    },
+    {
+        "question": "Mutex locks and semaphores are identical concepts. Programmers choose one or the other as a matter of style.",
+        "options": ["True", "False"],
+        "answer": "False"
+    }
+]
