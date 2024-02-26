@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('quizForm');
     let score = 0;
     const questions = [];
+    const count = 40;
     fetch('quiz.json')
         .then(response => response.json())
         .then(data => {
@@ -24,8 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         })
         .then(() => {
-            // 40 questions
-            for(let i = 0; i < 40; i++) {
+            for(let i = 0; i < count; i++) {
             // questions.forEach(q => {
                 const q = questions[i];
                 const fieldset = document.createElement('fieldset');
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('submitBtn').addEventListener('click', (e) => {
         e.preventDefault();
         const resultDisplay = document.createElement('div');
-        resultDisplay.textContent = `Your score is ${score}/${questions.length}`;
+        resultDisplay.textContent = `Your score is ${score}/${count}`;
         // document.body.insertBefore(resultDisplay, form.nextSibling); // Display score below the form
         form.appendChild(resultDisplay); // Display score below the form
         // Optionally, hide the form and button to prevent further interactions
