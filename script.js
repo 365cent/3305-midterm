@@ -24,7 +24,10 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         })
         .then(() => {
-            questions.forEach(q => {
+            // 40 questions
+            for(let i = 0; i < 40; i++) {
+            // questions.forEach(q => {
+                const q = questions[i];
                 const fieldset = document.createElement('fieldset');
                 const legend = document.createElement('legend');
                 legend.className = "font-semibold";
@@ -65,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
                 // form.insertBefore(fieldset, form.firstChild);
                 form.appendChild(fieldset);
-            });
+            };
         });
 
     document.getElementById('submitBtn').addEventListener('click', (e) => {
