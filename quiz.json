@@ -204,7 +204,7 @@
             "True",
             "False"
         ],
-        "correct_answer": "False"
+        "answer": "False"
     },
     {
         "question": "Main memory is an example of Nonvolatile storage (NVS)",
@@ -212,7 +212,7 @@
             "True",
             "False"
         ],
-        "correct_answer": "False"
+        "answer": "False"
     },
     {
         "question": "Windows has been used as a desktop operating system only",
@@ -220,7 +220,7 @@
             "True",
             "False"
         ],
-        "correct_answer": "False"
+        "answer": "False"
     },
     {
         "question": "A process is by definition a program in execution",
@@ -228,7 +228,7 @@
             "True",
             "False"
         ],
-        "correct_answer": "True"
+        "answer": "True"
     },
     {
         "question": "If an application fails the operating system can sometimes generate a",
@@ -238,7 +238,7 @@
             "Crash dump",
             "File-system dump"
         ],
-        "correct_answer": "Core dump"
+        "answer": "Core dump"
     },
     {
         "question": "An area of memory containing process information such as process state, CPU registers, I/O status information, etc is known as",
@@ -248,7 +248,7 @@
             "CPU Control Block",
             "Process Control Block"
         ],
-        "correct_answer": "Process Control Block"
+        "answer": "Process Control Block"
     },
     {
         "question": "A context switch consumes CPU time",
@@ -256,7 +256,7 @@
             "True",
             "False"
         ],
-        "correct_answer": "True"
+        "answer": "True"
     },
     {
         "question": "A parent process must wait for its child processes to finish before it can execute instructions",
@@ -264,7 +264,7 @@
             "True",
             "False"
         ],
-        "correct_answer": "False"
+        "answer": "False"
     },
     {
         "question": "If a program declares a variable before a fork() the child and the parent can communicate with one another using that variable",
@@ -272,7 +272,7 @@
             "True",
             "False"
         ],
-        "correct_answer": "False"
+        "answer": "False"
     },
     {
         "question": "A parent and child process always share the same block of memory",
@@ -280,7 +280,7 @@
             "True",
             "False"
         ],
-        "correct_answer": "False"
+        "answer": "False"
     },
     {
         "question": "Which storage medium certain process data is stored on does not influence process speed",
