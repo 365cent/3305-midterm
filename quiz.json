@@ -1,112 +1,400 @@
 [
     {
         "question": "Managing what is in memory and when is the responsibility of the running process",
-        "options": ["True", "False"],
+        "options": [
+            "True",
+            "False"
+        ],
         "answer": "False"
     },
     {
         "question": "Which of the following is not a factor to consider when deciding which storage medium to use",
-        "options": ["Volatility", "Cost", "Speed", "Weight"],
+        "options": [
+            "Volatility",
+            "Cost",
+            "Speed",
+            "Weight"
+        ],
         "answer": "Weight"
     },
     {
         "question": "To prevent a process from running too long the operating system uses a",
-        "options": ["DMA to limit CPU time", "Switch", "Cache", "Timer"],
+        "options": [
+            "DMA to limit CPU time",
+            "Switch",
+            "Cache",
+            "Timer"
+        ],
         "answer": "Timer"
     },
     {
         "question": "Main memory is an example of Nonvolatile storage (NVS)",
-        "options": ["True", "False"],
+        "options": [
+            "True",
+            "False"
+        ],
         "answer": "False"
     },
     {
         "question": "Which of the following is not a service commonly provided by an operating system?",
-        "options": ["Process communication", "I/O operations", "Error detection", "Code compilation"],
+        "options": [
+            "Process communication",
+            "I/O operations",
+            "Error detection",
+            "Code compilation"
+        ],
         "answer": "Code compilation"
     },
     {
         "question": "Which of the following is not a component of a process?",
-        "options": ["Heap", "These are all components of a process", "Stack", "Text"],
+        "options": [
+            "Heap",
+            "These are all components of a process",
+            "Stack",
+            "Text"
+        ],
         "answer": "These are all components of a process"
     },
     {
         "question": "A context switch consumes CPU time",
-        "options": ["True", "False"],
+        "options": [
+            "True",
+            "False"
+        ],
         "answer": "True"
     },
     {
         "question": "A parent and child process always share the same block of memory",
-        "options": ["True", "False"],
+        "options": [
+            "True",
+            "False"
+        ],
         "answer": "False"
     },
     {
         "question": "A parent process must wait for its child processes to finish before it can execute instructions.",
-        "options": ["True", "False"],
+        "options": [
+            "True",
+            "False"
+        ],
         "answer": "False"
     },
     {
         "question": "If a program declares a variable before a fork() the child and the parent can communicate with one another using that variable.",
-        "options": ["True", "False"],
+        "options": [
+            "True",
+            "False"
+        ],
         "answer": "False"
     },
     {
         "question": "Which of the following is a reason why two processes may want to cooperate?",
-        "options": ["Speed", "Convenience", "Sharing Information", "All of these"],
+        "options": [
+            "Speed",
+            "Convenience",
+            "Sharing Information",
+            "All of these"
+        ],
         "answer": "All of these"
     },
     {
         "question": "When two processes communicate using an unbounded buffer, the producer may need to wait before writing to the buffer.",
-        "options": ["True", "False"],
+        "options": [
+            "True",
+            "False"
+        ],
         "answer": "False"
     },
     {
         "question": "The greater the serial portion of a task, the greater the expected performance gains by adding parallelism.",
-        "options": ["True", "False"],
+        "options": [
+            "True",
+            "False"
+        ],
         "answer": "False"
     },
     {
         "question": "Suppose a program can run 10% serial and 90% parallel. Using Amdahl's Law, calculate the expected performance gain by adding 16 cores.",
-        "options": ["15", "3.3", "6.4", "12.1"],
+        "options": [
+            "15",
+            "3.3",
+            "6.4",
+            "12.1"
+        ],
         "answer": "6.4"
     },
     {
         "question": "Which of the following is not a benefit of multithreading?",
-        "options": ["Threads can easily share variables", "CPU instructions execute faster when run in a thread", "Applications respond to user input faster", "Threads can run on multiple CPUs or multiple cores concurrently"],
+        "options": [
+            "Threads can easily share variables",
+            "CPU instructions execute faster when run in a thread",
+            "Applications respond to user input faster",
+            "Threads can run on multiple CPUs or multiple cores concurrently"
+        ],
         "answer": "CPU instructions execute faster when run in a thread"
     },
     {
         "question": "In a nonpreemptive scheduling scheme, the next process to run is",
-        "options": ["The next process in the queue", "The process in the queue with the highest priority", "A randomly selected process", "The process in the queue with the shortest run time"],
+        "options": [
+            "The next process in the queue",
+            "The process in the queue with the highest priority",
+            "A randomly selected process",
+            "The process in the queue with the shortest run time"
+        ],
         "answer": "The next process in the queue"
     },
     {
         "question": "One drawback to Priority scheduling is",
-        "options": ["Longer average waiting time compared to most other scheduling algorithms", "Process priority cannot change", "All of these", "The potential for starvation"],
+        "options": [
+            "Longer average waiting time compared to most other scheduling algorithms",
+            "Process priority cannot change",
+            "All of these",
+            "The potential for starvation"
+        ],
         "answer": "The potential for starvation"
     },
     {
         "question": "In Round-Robin CPU scheduling, if there are 10 processes in the ready queue and the time quantum is 3ms, then no process waits more than",
-        "options": ["None of these", "20ms", "30ms", "27ms"],
+        "options": [
+            "None of these",
+            "20ms",
+            "30ms",
+            "27ms"
+        ],
         "answer": "27ms"
     },
     {
         "question": "In Multilevel queue scheduling, which of the following is not true?",
-        "options": ["Processes can move between the queues", "Starvation is possible", "Each queue is assigned a priority level", "Different queues can use different scheduling algorithms"],
+        "options": [
+            "Processes can move between the queues",
+            "Starvation is possible",
+            "Each queue is assigned a priority level",
+            "Different queues can use different scheduling algorithms"
+        ],
         "answer": "Processes can move between the queues"
     },
     {
         "question": "To balance tasks across multicores, an operating system may employ which strategy?",
-        "options": ["Periodically check for cores with too many tasks and push some of those tasks to other cores", "Either strategy could be used", "Periodically check for cores that have too few tasks and pull some tasks from other cores"],
+        "options": [
+            "Periodically check for cores with too many tasks and push some of those tasks to other cores",
+            "Either strategy could be used",
+            "Periodically check for cores that have too few tasks and pull some tasks from other cores"
+        ],
         "answer": "Either strategy could be used"
     },
     {
         "question": "Shared data that is always read-only does not necessarily need to be used in a critical section.",
-        "options": ["True", "False"],
+        "options": [
+            "True",
+            "False"
+        ],
         "answer": "True"
     },
     {
         "question": "Mutex locks and semaphores are identical concepts. Programmers choose one or the other as a matter of style.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "Which storage medium certain process data is stored on does not influence process speed",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct_answer": "False"
+    },
+    {
+        "question": "Main memory is an example of Nonvolatile storage (NVS)",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct_answer": "False"
+    },
+    {
+        "question": "Windows has been used as a desktop operating system only",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct_answer": "False"
+    },
+    {
+        "question": "A process is by definition a program in execution",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct_answer": "True"
+    },
+    {
+        "question": "If an application fails the operating system can sometimes generate a",
+        "options": [
+            "Core dump",
+            "Application dump",
+            "Crash dump",
+            "File-system dump"
+        ],
+        "correct_answer": "Core dump"
+    },
+    {
+        "question": "An area of memory containing process information such as process state, CPU registers, I/O status information, etc is known as",
+        "options": [
+            "Process Status File",
+            "CPU Registry",
+            "CPU Control Block",
+            "Process Control Block"
+        ],
+        "correct_answer": "Process Control Block"
+    },
+    {
+        "question": "A context switch consumes CPU time",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct_answer": "True"
+    },
+    {
+        "question": "A parent process must wait for its child processes to finish before it can execute instructions",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct_answer": "False"
+    },
+    {
+        "question": "If a program declares a variable before a fork() the child and the parent can communicate with one another using that variable",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct_answer": "False"
+    },
+    {
+        "question": "A parent and child process always share the same block of memory",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct_answer": "False"
+    },
+    {
+        "question": "Which storage medium certain process data is stored on does not influence process speed",
         "options": ["True", "False"],
         "answer": "False"
-    }
+      },
+      {
+        "question": "Main memory is an example of Nonvolatile storage (NVS)",
+        "options": ["True", "False"],
+        "answer": "False"
+      },
+      {
+        "question": "Windows has been used as a desktop operating system only",
+        "options": ["True", "False"],
+        "answer": "False"
+      },
+      {
+        "question": "A process is by definition a program in execution",
+        "options": ["True", "False"],
+        "answer": "True"
+      },
+      {
+        "question": "If an application fails the operating system can sometimes generate a",
+        "options": ["Core dump", "Application dump", "Crash dump", "File-system dump"],
+        "answer": "Core dump"
+      },
+      {
+        "question": "The primary purpose of an operating system is:",
+        "options": ["To make the most efficient use of the computer hardware", "To allow people to use the computer", "To keep systems programmers employed", "To make computers easier to use"],
+        "answer": "To make the most efficient use of the computer hardware"
+      },
+      {
+        "question": "The operating system kernel is:",
+        "options": ["The same thing as the CPU", "A low-level part of the system that interfaces directly with the hardware", "An application like a word processor", "Part of the application software"],
+        "answer": "A low-level part of the system that interfaces directly with the hardware"
+      },
+      {
+        "question": "Interrupts are:",
+        "options": ["An efficient way of multitasking", "Generated by exceptional conditions in the CPU", "Signals that inform the OS that an event has occurred", "Used to start a computer"],
+        "answer": "Signals that inform the OS that an event has occurred"
+      },
+      {
+        "question": "Message passing is typically faster than shared memory.",
+        "options": ["True", "False"],
+        "answer": "False"
+      },
+      {
+        "question": "Which of the following is a reason why two processes may want to cooperate?",
+        "options": ["Speed", "All of these", "Convenience", "Sharing Information"],
+        "answer": "All of these"
+      },
+      {
+        "question": "Unlike forking, if the parent thread of a multithreaded process exits, all of its 'child' threads will also exit.",
+        "options": ["True", "False"],
+        "answer": "True"
+      },
+      {
+        "question": "If a process has multiple threads and one of the threads calls fork(), the child process will also be multithreaded.",
+        "options": ["True", "False"],
+        "answer": "False"
+      },
+      {
+        "question": "In a one-to-one multithreading model, the developer can use only single-threading.",
+        "options": ["True", "False"],
+        "answer": "False"
+      },
+      {
+        "question": "Context switching is managed by the",
+        "options": ["Dispatcher", "Switcher", "CPU", "Scheduler"],
+        "answer": "Dispatcher"
+      },
+      {
+        "question": "Consider the following processes in the ready queue with the following CPU burst times. Match the following scheduling algorithms with the order of processes",
+        "options": ["FCFS: P1, P2, P3", "SJF: P2, P3, P1", "LCFS: P3, P2, P1", "RR (Quantum 10): P1, P2, P3, P1"],
+        "answer": "FCFS: P1, P2, P3, SJF: P2, P3, P1, LCFS: P3, P2, P1, RR (Quantum 10): P1, P2, P3, P1"
+      },
+      {
+        "question": "In Round-Robin CPU scheduling, if there are 10 processes in the ready queue and the time quantum is 3ms, then no process waits more than",
+        "options": ["27ms", "30ms", "20ms", "None of these"],
+        "answer": "27ms"
+      },
+      {
+        "question": "With a Multilevel Feedback Queue scheduling algorithm, once the scheduler has placed the process in a queue, it could be moved to a different queue later.",
+        "options": ["True", "False"],
+        "answer": "True"
+      },
+      {
+        "question": "One drawback to Priority scheduling is",
+        "options": ["Longer average waiting time compared to most other scheduling algorithms", "The potential for starvation", "All of these", "Process priority cannot change"],
+        "answer": "The potential for starvation"
+      },
+      {
+        "question": "To select a process to run in a multiprocessor architecture, the scheduler will assign processes to a core from",
+        "options": ["Either a common or a private ready queue is possible", "Common ready queue", "Private ready queue"],
+        "answer": "Either a common or a private ready queue is possible"
+      },
+      {
+        "question": "Which of the following is not a necessary criterion for a solution to the critical section problem?",
+        "options": ["All processes with a critical section must employ mutual exclusion", "If the shared resource is available for use, any process that wants to use it can secure the resource and enter its critical section", "A process may not prevent other processes from ever entering their critical section", "All processes that wish to use a shared resource must have an equal chance of obtaining the shared resource"],
+        "answer": "All processes that wish to use a shared resource must have an equal chance of obtaining the shared resource"
+      },
+      {
+        "question": "Peterson's solution is a common strategy employed by modern operating systems to solve the critical section problem",
+        "options": ["True", "False"],
+        "answer": "False"
+      },
+      {
+        "question": "A semaphore can be implemented as a mutex lock",
+        "options": ["True", "False"],
+        "answer": "False"
+      },
+      {
+        "question": "A common approach used by most modern operating systems to manage process synchronization is to temporarily disable interrupts",
+        "options": ["True", "False"],
+        "answer": "False"
+      }
 ]
