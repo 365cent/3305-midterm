@@ -1,4 +1,4 @@
-# 3305-midterm: A Quiz Question Parser
+# Quiz App
 
 This project includes a Python script that parses quiz questions and answers from a PDF file and converts them into a structured JSON format.
 
