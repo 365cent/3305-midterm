@@ -1,0 +1,123 @@
+[
+    {
+        "question": "Which of the following is not an organizational stakeholder?",
+        "options": [
+            "Executive officers",
+            "Unions",
+            "Employees",
+            "Project Team",
+            "Customers"
+        ],
+        "answer": "Customers"
+    },
+    {
+        "question": "A large part of your role as project manager is to manage the triple constraints, being scope, time and costs. Your project sponsor has just informed you that the project you are managing needs to reduce the yearlong schedule by two months. What is your best strategy to meet this change to your project?",
+        "options": [
+            "Pull your project team",
+            "Consider a reduction in scope or an increase in costs",
+            "Request to cancel the project",
+            "Recommend a reduction in scope and or a decrease in costs",
+            "Understand the request and continue on with the project"
+        ],
+        "answer": "Consider a reduction in scope or an increase in costs"
+    },
+    {
+        "question": "Who contributed to the early development of the WBS (Work Breakdown Structure) process and tool currently used in assisting project scope creation?",
+        "options": [
+            "Henry Ford",
+            "Carl Barh",
+            "Frank and Lillian Gilbreths",
+            "Frederick Taylor",
+            "Henry Gantt"
+        ],
+        "answer": "Henry Gantt"
+    },
+    {
+        "question": "In the list of tasks, which tasks are on the critical path?",
+        "options": [
+            "A, B, C, G, H",
+            "A, C, E, G, H",
+            "A, B, D, G, H",
+            "A, B, E, F, H",
+            "A, B, E, G, H"
+        ],
+        "answer": "A, B, C, G, H"
+    },
+    {
+        "question": "Which task from the network diagram listed above has the most slack?",
+        "options": [
+            "H",
+            "V",
+            "G",
+            "C",
+            "F"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "When a project manager needs to see the critical path in the project network they complete a forward and backwards pass. What is true with respect to a backwards pass?",
+        "options": [
+            "In the case of a burst point, the smallest succeeding LS becomes the LF for that node",
+            "Lf - Duration = ES",
+            "Add all activity times along each path we move through the network",
+            "At a merge point, the shortest preceding EF becomes the LF for that node",
+            "The project manager only needs the backwards pass to see the critical path in the network"
+        ],
+        "answer": "In the case of a burst point, the smallest succeeding LS becomes the LF for that node"
+    },
+    {
+        "question": "Over the last four months",
+        "options": [
+            "Project creep",
+            "Scope assessment management",
+            "Scope control",
+            "Scope creep",
+            "Project integration"
+        ],
+        "answer": "Scope creep"
+    },
+    {
+        "question": "The project scope is measured against",
+        "options": [
+            "Quality control document",
+            "Project requirement document",
+            "Risk management plan",
+            "The WBS dictionary",
+            "Project scope statement and WBS"
+        ],
+        "answer": "Project scope statement and WBS"
+    },
+    {
+        "question": "As the project manager in the planning phase of the project one of your goals is to collect customer requirements. What are considered high level expectations requirements?",
+        "options": [
+            "Business requirements",
+            "Stakeholder requirements",
+            "Functional requirements",
+            "Project requirements",
+            "Quality requirements"
+        ],
+        "answer": "Business requirements"
+    },
+    {
+        "question": "In which organizational form does the project manager have the greatest authority over the assigned resources to their project?",
+        "options": [
+            "Traditional",
+            "Projectized",
+            "Strong matrix",
+            "Weak matrix",
+            "Functional"
+        ],
+        "answer": "Projectized"
+    },
+    {
+        "question": "The work package is considered",
+        "options": [
+            "The business need of the project including the ROI (Return on Investment)",
+            "The lowest level of a task the project manager will manage",
+            "A tool to show the functional managers for each team member",
+            "To be used for formal sign-off of the project",
+            "The formal time reporting tool"
+        ],
+        "answer": "The lowest level of a task the project manager will manage"
+    }
+]
