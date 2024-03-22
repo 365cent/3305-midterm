@@ -119,5 +119,38 @@
             "The formal time reporting tool"
         ],
         "answer": "The lowest level of a task the project manager will manage"
+    },
+    {
+        "question": "What is an Agile framework that helps organize and address challenges attempting to manage multiple agile teams?",
+        "options": [
+            "Feature drive development",
+            "SAFe",
+            "Water-Scrum",
+            "Lean Development",
+            "Scrum"
+        ],
+        "answer": "SAFe"
+    },
+    {
+        "question": "What is the definition of a minimum releasable feature?",
+        "options": [
+            "A small output of the sprint",
+            "A feature that can be selected early or late in the project",
+            "A feature that the team deems less than 5 story points",
+            "A must have feature",
+            "A small deliverable at the end of a sprint"
+        ],
+        "answer": "A must have feature"
+    },
+    {
+        "question": "Agile project team work at a sustainable pace, this give the team a",
+        "options": [
+            "Front and backend load sprints",
+            "Good flow of backlog output",
+            "Change to work overtime as the sprint ramps up",
+            "Is not sustainable in the work environment",
+            "None of the above are true related to working at a sustainable pace"
+        ],
+        "answer": "Good flow of backlog output"
     }
 ]
