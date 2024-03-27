@@ -152,5 +152,27 @@
             "None of the above are true related to working at a sustainable pace"
         ],
         "answer": "Good flow of backlog output"
+    },
+    {
+        "question": "What is the recommended size of a scrum team?",
+        "options": [
+            "Typically 10 or less",
+            "Size of the scrum team is dictated by the product owner",
+            "Minimum of 4 and maximum of 15",
+            "There is no recommended number, the scrum team can be any size",
+            "Minimum of 2"
+        ],
+        "answer": "Typically 10 or less"
+    },
+    {
+        "question": "What is the Agile product roadmap?",
+        "options": [
+            "Allows the customers to decide when they want to launch the product",
+            "There can be many launches during the lifecycle",
+            "Is a visual tool to predict a long-term view of the project",
+            "Each sprint has a potentially shippable item",
+            "All the above are true of an Agile roadmap"
+        ],
+        "answer": "Is a visual tool to predict a long-term view of the project"
     }
 ]
