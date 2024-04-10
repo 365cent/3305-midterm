@@ -23,10 +23,12 @@ document.addEventListener('DOMContentLoaded', () => {
             questions.forEach((q, index) => {
                 q.number = index + 1;
             });
+
+            count = questions.length;
         })
         .then(() => {
-            for(let i = 0; i < count; i++) {
-            // questions.forEach(q => {
+            // for(let i = 0; i < count; i++) {
+            questions.forEach(q => {
                 const q = questions[i];
                 const fieldset = document.createElement('fieldset');
                 const legend = document.createElement('legend');
@@ -68,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
                 // form.insertBefore(fieldset, form.firstChild);
                 form.appendChild(fieldset);
-            };
+            });
         });
 
     document.getElementById('submitBtn').addEventListener('click', (e) => {
