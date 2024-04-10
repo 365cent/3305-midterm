@@ -916,5 +916,707 @@
             "False"
         ],
         "answer": "False"
+    },
+    {
+        "question": "Most modern operating systems will implement techniques to ensure the CPU does not\nupdate areas of memory it should not update.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "The size of the memory allocated for a process is stored in",
+        "options": [
+            "The relocation register",
+            "The process size register",
+            "The limit register",
+            "The base register"
+        ],
+        "answer": "The limit register"
+    },
+    {
+        "question": "Binding the address of data to physical addresses in memory occurs at",
+        "options": [
+            "Load time",
+            "Any of these are possible",
+            "Execution time",
+            "Compile time"
+        ],
+        "answer": "Any of these are possible"
+    },
+    {
+        "question": "Consider a logical address space of 4 bytes (32 bits). If the page size is 1 byte (8 bits), how\nmany pages can be used?\n(Assume the entire address space is dedicated to the page number and offset. Do not\nconsider other bits like the valid/invalid or protection bit)",
+        "options": [
+            "2^24",
+            "2^8",
+            "2^16",
+            "None of these"
+        ],
+        "answer": "2^24"
+    },
+    {
+        "question": "Consider a logical address space of 12 bits. If each page size is 8 bits, how many pages are\nthere in the logical address?\n(Assume the entire address space is dedicated to the page number and offset. Do not\nconsider other bits like the valid/invalid or protection bit)",
+        "options": [
+            "32 pages",
+            "None of these",
+            "4 pages",
+            "16 pages"
+        ],
+        "answer": "16 pages"
+    },
+    {
+        "question": "If the CPU wants to use memory address 256, and the relocation register holds the value\n256, and the limit register holds the value 512, then the physical address in memory is\n(assume contiguous memory allocation)",
+        "options": [
+            "512 but an error will be generated",
+            "512 and no error will be generated",
+            "There is not enough information",
+            "256 and no error will be generated"
+        ],
+        "answer": "512 and no error will be generated"
+    },
+    {
+        "question": "Sort the following storage mediums from fastest to slowest\n1. Registers\n2. Main memory\n3. Hard drive\n4. Cache",
+        "options": [
+            "4 (Slowest)",
+            "3",
+            "2",
+            "1 (Fastest)"
+        ],
+        "answer": "1 (Fastest)"
+    },
+    {
+        "question": "Consider a logical address space of 2^16. If there are 32 pages in the logical address, what\nis the size of each page?\n(Assume the entire address space is dedicated to the page number and o\"set. Do not\nconsider other bits like the valid/invalid bit)",
+        "options": [
+            "2048 bits",
+            "1024 bits",
+            "4096 bits",
+            "None of these"
+        ],
+        "answer": "2048 bits"
+    },
+    {
+        "question": "DLLs are loaded when requested by a process and are not shared with other processes",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "Which of the following is the best definition of a translation look-aside buffer",
+        "options": [
+            "A cache in the CPU that holds a subset of the page table",
+            "B A register in the CPU that holds the address in memory of the page table",
+            "C. A table in memory that holds the list of pages and frames",
+            "D. A register In the CPU that holds the see of the page table"
+        ],
+        "answer": "A cache in the CPU that holds a subset of the page table"
+    },
+    {
+        "question": "If the data required by a process is only found on disk, the CPU must always ask the\noperating system to handle retrieving the data",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "question": "Contiguous memory allocation is also commonly referred to as",
+        "options": [
+            "Virtual memory",
+            "None of these are valid terms",
+            "Paging",
+            "Swapping"
+        ],
+        "answer": "None of these are valid terms"
+    },
+    {
+        "question": "Processes that need more frames will use one from their own list of free frames",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "Using a first-fit algorithm on fixed partitions, match the following process blocks with the\nfollowing partitions (*None of the Above* means this partition is not used)\nProcess Size\nP1 20\nP2 400\nP3 150\nP4 175\nPartition Size\n1 100\n2 200\n3 200\n4 300\n5 400\n6 500\n7 500",
+        "options": [
+            "P2",
+            "P1",
+            "P4",
+            "P3",
+            "None of the Above"
+        ],
+        "answer": "P1"
+    },
+    {
+        "question": "Using dynamic partitions for contiguous memory allocation suffers from",
+        "options": [
+            "External fragmentation",
+            "Neither of these",
+            "Both of these",
+            "Internal fragmentation"
+        ],
+        "answer": "External fragmentation"
+    },
+    {
+        "question": "Consider a page size of 1024 bytes, what is the internal fragmentation on a process using\n15,616 bytes",
+        "options": [
+            "None of these",
+            "0 bytes",
+            "256 bytes",
+            "768 bytes"
+        ],
+        "answer": "768 bytes"
+    },
+    {
+        "question": "The TLB holds a copy of the page table.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "The valid/invalid bit in the page table is used to indicate whether the page is mapped to a\nfree frame or not.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "Consider the relationship between pages and frames. For any operating system which of the\nfollowing statements is not a reasonable implementation?",
+        "options": [
+            "All of these are reasonable implementation",
+            "There can be an equal number of pages and frames",
+            "There can be more frames than pages",
+            "There can be more pages than frames"
+        ],
+        "answer": "There can be more frames than pages"
+    },
+    {
+        "question": "Pages can be labelled as read-only",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "question": "Which of the following methods are not used to keep track of frame usage?",
+        "options": [
+            "Counters",
+            "All of these can be used.",
+            "Stack",
+            "Hash map"
+        ],
+        "answer": "Hash map"
+    },
+    {
+        "question": "For performance reasons, operating systems will usually let the free-frame list reach zero\nand use a page-out/page-in strategy when frames are needed.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "Which of the following is not a page replacement algorithm?",
+        "options": [
+            "These are all valid algorithms",
+            "Least frequently used",
+            "Shortest job first",
+            "First-in first-out"
+        ],
+        "answer": "Shortest job first"
+    },
+    {
+        "question": "The master boot record typically contains all the code necessary to boot the operating\nsystem",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "For efficiency, modern disks often maintain their own list of disk requests and act on them\nusing built-in algorithms",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "question": "Higher page faults usually means higher effective memory access time",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "question": "A system is using virtual memory if",
+        "options": [
+            "There are more pages than frames",
+            "There are more frames than pages",
+            "There are an equal number of pages and frames",
+            "Any of these are possible"
+        ],
+        "answer": "There are more pages than frames"
+    },
+    {
+        "question": "In the event of disk failure, data loss is likely to occur in which RAID configuration?",
+        "options": [
+            "RAID 0",
+            "RAID 1",
+            "RAID 5",
+            "None of these"
+        ],
+        "answer": "RAID 0"
+    },
+    {
+        "question": "A trap to the operating system when a page is invalid is known as",
+        "options": [
+            "A swap",
+            "None of these",
+            "A page fault",
+            "An Invalid reference"
+        ],
+        "answer": "A page fault"
+    },
+    {
+        "question": "The list of free frames is maintained by",
+        "options": [
+            "The MMU",
+            "The operating system",
+            "The running process",
+            "None of these"
+        ],
+        "answer": "The operating system"
+    },
+    {
+        "question": "For efficiency, NVM devices typically write data at low level pages.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "Consider a system with swap space held on an HDD with an access time of 10,000,000\nmicroseconds and a memory access time of 1 microseconds. Suppose a page fault occurs\n1/1000 accesses, the effective memory access time is",
+        "options": [
+            "1.100 microseconds",
+            "1.999 microseconds",
+            "None of these",
+            "2.001 microseconds"
+        ],
+        "answer": "None of these"
+    },
+    {
+        "question": "Rank the following locations on a hard drive disk from 1 (most specific/smallest block) to 4\n(most generic/largest block)\n1. Sector\n2. Track\n3. Platter/Cylinder",
+        "options": [
+            "1",
+            "2",
+            "3"
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Multiple pages with similar code and data structures are known as",
+        "options": [
+            "None of these",
+            "Related pages",
+            "pages with the same locality",
+            "Neighbour pages"
+        ],
+        "answer": "pages with the same locality"
+    },
+    {
+        "question": "A stack is an example of a data structure with good locality",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "question": "Swap space is assigned to",
+        "options": [
+            "Dedicated files on a filesystem",
+            "Either of these are possible",
+            "Raw partitions",
+            "None of these"
+        ],
+        "answer": "Either of these are possible"
+    },
+    {
+        "question": "If using a valid/invalid bit in a demand paging strategy, every page will generate a page fault\nat least once.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "question": "Which of the following is a possible reason to load only part of a program in memory?",
+        "options": [
+            "More programs can run concurrently",
+            "All of these are possible reasons to load only part of a program into memory",
+            "Some parts of some data structures are rarely used",
+            "Some subroutines are rarely used"
+        ],
+        "answer": "All of these are possible reasons to load only part of a program into memory"
+    },
+    {
+        "question": "If the operating system cannot find a free frame in the free frame list, the operating system\nwill",
+        "options": [
+            "Send an error to the requesting process",
+            "Find a frame that can be written to disk and use that frame for the new request",
+            "All of these are common strategies",
+            "Crash dump"
+        ],
+        "answer": "Find a frame that can be written to disk and use that frame for the new request"
+    },
+    {
+        "question": "Before the data in a file can be used by a process, that data must first be loaded into\nmemory.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "question": "Most modern operating systems provide an abstraction between the logical files and the\nphysical addresses of the files on disk",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "question": "Linux represents the system state and other attributes under which directory?",
+        "options": [
+            "/usr",
+            "/proc",
+            "/dev",
+            "/etc"
+        ],
+        "answer": "/proc"
+    },
+    {
+        "question": "Most modern operating systems employ which type of directory structure?",
+        "options": [
+            "Single",
+            "Two-level",
+            "Tree",
+            "Acyclic Graph"
+        ],
+        "answer": "Acyclic Graph"
+    },
+    {
+        "question": "Validating a username and password is known as",
+        "options": [
+            "Authorization",
+            "Encryption",
+            "Authentication",
+            "None of these"
+        ],
+        "answer": "Authentication"
+    },
+    {
+        "question": "Operating systems require that all files on a file system follow one of these three structures:\nFree-form\nSimple record\nComplex record",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "If an operating system is permitting multiple processes to write to a locked file, this is an\nexample of",
+        "options": [
+            "Exclusive lock with advisory locking",
+            "Exclusive lock with mandatory locking",
+            "Shared lock with mandatory locking",
+            "None of these"
+        ],
+        "answer": "Exclusive lock with advisory locking"
+    },
+    {
+        "question": "Which of the following is not a basic file operation that an operating system needs to\nprovide functionality for?",
+        "options": [
+            "Move",
+            "Create",
+            "Truncate",
+            "D All of these are basic file operations"
+        ],
+        "answer": "Move"
+    },
+    {
+        "question": "A differential backup can also be known as",
+        "options": [
+            "an incremental backup",
+            "None of these"
+        ],
+        "answer": "None of these"
+    },
+    {
+        "question": "Which of the following is a reason for a file system to not use indexed allocation?",
+        "options": [
+            "Random access is slow",
+            "These are all reasons to not use indexed allocation",
+            "The index block may not be large enough to hold all indexes",
+            "It suffers from external fragmentation"
+        ],
+        "answer": "The index block may not be large enough to hold all indexes"
+    },
+    {
+        "question": "Which of the following is the best definition of a virtual file system?",
+        "options": [
+            "A file system implemented in user mode instead of kernel mode",
+            "A uniform API provided by the operating system to make the underlying file system\noperations\ntransparent to the user",
+            "A file system designed to manage virtual machines",
+            "An API created for network-based file systems such as NFS"
+        ],
+        "answer": "A uniform API provided by the operating system to make the underlying file system\noperations\ntransparent to the user"
+    },
+    {
+        "question": "With asymmetric cryptography, the same key is used for both encryption and decryption",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "Applying labels to objects and domains and permitting the action when the labels match is\nknown as",
+        "options": [
+            "Role-based access control",
+            "Label-based access control",
+            "Mandatory access control",
+            "Classified access control"
+        ],
+        "answer": "Mandatory access control"
+    },
+    {
+        "question": "Which of the following is a reason for a file system to not use contiguous allocation?",
+        "options": [
+            "These are all reasons to not choose contiguous allocation",
+            "Performance is poor",
+            "Disk space may be difficult to find for large files",
+            "Difficult to implement"
+        ],
+        "answer": "Disk space may be difficult to find for large files"
+    },
+    {
+        "question": "A file system should have good performance with many features without sacrificing reliability",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "Which of the following file system types are common in UNIX/Linux systems",
+        "options": [
+            "zfs",
+            "ext3",
+            "All of these are common",
+            "ext4"
+        ],
+        "answer": "All of these are common"
+    },
+    {
+        "question": "Only permitting programs to run if they have been approved by the vendor is known as",
+        "options": [
+            "System-call filtering",
+            "Code-signing",
+            "Sandboxing",
+            "System Integrity Protection"
+        ],
+        "answer": "Code-signing"
+    },
+    {
+        "question": "In the context of file systems, FUSE stands for",
+        "options": [
+            "Files under system events",
+            "File based user structures",
+            "Fragmentation unless sector extents",
+            "File system user space"
+        ],
+        "answer": "File system user space"
+    },
+    {
+        "question": "A backup that is held off-site and/or disconnected from any network is known as",
+        "options": [
+            "a full backup",
+            "a differential backup",
+            "a cold storage backup",
+            "an incremental backup"
+        ],
+        "answer": "a cold storage backup"
+    },
+    {
+        "question": "A worm requires user input to propagate",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "A backup that only contains the changed files from the previous backup is known as",
+        "options": [
+            "a cumulative backup",
+            "an incremental backup",
+            "a diferential backup",
+            "a full backup"
+        ],
+        "answer": "an incremental backup"
+    },
+    {
+        "question": "Before a user can use the files in a file system, the file system must be",
+        "options": [
+            "All of these",
+            "Opened",
+            "Partitioned",
+            "Mounted"
+        ],
+        "answer": "Mounted"
+    },
+    {
+        "question": "Which of the following is the best definition for security?",
+        "options": [
+            "Protecting data from theft",
+            "Encrypting sensitive data from malicious attacks",
+            "A set of mechanisms to provide protection",
+            "A measure of confidence that the data on a system is secure"
+        ],
+        "answer": "A measure of confidence that the data on a system is secure"
+    },
+    {
+        "question": "The core operating system files (eg. Kernel, libraries) are found in which partition?",
+        "options": [
+            "None of these",
+            "Swap partition",
+            "Root partition",
+            "Boot partition"
+        ],
+        "answer": "Root partition"
+    },
+    {
+        "question": "In the context of file systems, a contiguous set of sectors that can be assigned to parts of a\nfile is known as a",
+        "options": [
+            "track",
+            "block",
+            "volume",
+            "FCB"
+        ],
+        "answer": "block"
+    },
+    {
+        "question": "Symmetric and asymmetric encryption/decryption are roughly equivalent in terms of\ncomputation power required",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "Which of the following is not an on-storage file system structure discussed in class?",
+        "options": [
+            "System-wide open-file table",
+            "Volume control block",
+            "FCB",
+            "These are all on-storage file system structures"
+        ],
+        "answer": "System-wide open-file table"
+    },
+    {
+        "question": "On a DFS, all the actions performed by a client between the open() and the close() call is\nknown as",
+        "options": [
+            "File session",
+            "DFS",
+            "File block",
+            "NFS"
+        ],
+        "answer": "File session"
+    },
+    {
+        "question": "Which of the following is the best definition for a WAN",
+        "options": [
+            "A WAN is synonymous with the Internet",
+            "Any wifi network",
+            "A network consisting of computers across a country",
+            "A network consisting of all the computers in the same building"
+        ],
+        "answer": "A network consisting of computers across a country"
+    },
+    {
+        "question": "Which of the following is a benefit to virtualization",
+        "options": [
+            "Virtual machines do not need to be expanded as the workload grows",
+            "Easier to consolidate multiple operating systems on the same host system",
+            "Guest operating systems can read and write each other's data",
+            "These are all benefits to virtualization"
+        ],
+        "answer": "Easier to consolidate multiple operating systems on the same host system"
+    },
+    {
+        "question": "Another name for a virtual machine manager is",
+        "options": [
+            "Virtual visor",
+            "Vmware",
+            "Guest kernel",
+            "Hypervisor"
+        ],
+        "answer": "Hypervisor"
+    },
+    {
+        "question": "Virtualization and emulation are synonymous",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "Forcing programs to run inside a limited environment is known as",
+        "options": [
+            "Sandboxing",
+            "System Integrity Protection",
+            "System-call filtering",
+            "Code-signing"
+        ],
+        "answer": "Sandboxing"
+    },
+    {
+        "question": "Assigning more memory to all the guest VMs than the host system physically has is known\nas",
+        "options": [
+            "Oversubscribing",
+            "Virtual memory",
+            "Paging",
+            "Deduplication"
+        ],
+        "answer": "Oversubscribing"
+    },
+    {
+        "question": "Managing what is in memory and when is the responsibility of the running process",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "Which of the following is not a factor to consider when deciding which storage medium to use",
+        "options": [
+            "Volatility",
+            "Cost",
+            "Speed",
+            "Weight"
+        ],
+        "answer": "Weight"
     }
 ]
