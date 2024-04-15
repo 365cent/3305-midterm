@@ -8,7 +8,8 @@
             "Project Team",
             "Customers"
         ],
-        "answer": "Customers"
+        "answer": "Customers",
+        "tips": "Organizational stakeholders are those groups or individuals who are directly affected by the project and its outcome. While customers are important to the organization, they are not part of its internal structure and thus are not considered organizational stakeholders in this context."
     },
     {
         "question": "A large part of your role as project manager is to manage the triple constraints, being scope, time and costs. Your project sponsor has just informed you that the project you are managing needs to reduce the yearlong schedule by two months. What is your best strategy to meet this change to your project?",
@@ -19,7 +20,8 @@
             "Recommend a reduction in scope and or a decrease in costs",
             "Understand the request and continue on with the project"
         ],
-        "answer": "Consider a reduction in scope or an increase in costs"
+        "answer": "Consider a reduction in scope or an increase in costs",
+        "tips": "Reducing the project schedule often requires a trade-off in scope or budget. Reducing scope can help complete the project earlier but may involve cutting features or tasks, whereas increasing costs might involve adding resources to accelerate project tasks."
     },
     {
         "question": "Who contributed to the early development of the WBS (Work Breakdown Structure) process and tool currently used in assisting project scope creation?",
@@ -30,7 +32,8 @@
             "Frederick Taylor",
             "Henry Gantt"
         ],
-        "answer": "Henry Gantt"
+        "answer": "Henry Gantt",
+        "tips": "Henry Gantt, known for the Gantt chart, also contributed significantly to project management tools that assist in task scheduling and project tracking, influencing the development of the WBS."
     },
     {
         "question": "In the list of tasks, which tasks are on the critical path?",
@@ -41,7 +44,8 @@
             "A, B, E, F, H",
             "A, B, E, G, H"
         ],
-        "answer": "A, B, C, G, H"
+        "answer": "A, B, C, G, H",
+        "tips": "The critical path is the sequence of project network activities which add up to the longest overall duration, determining the shortest time possible to complete the project. This sequence of tasks represents such a path."
     },
     {
         "question": "Which task from the network diagram listed above has the most slack?",
@@ -52,7 +56,8 @@
             "C",
             "F"
         ],
-        "answer": "C"
+        "answer": "C",
+        "tips": "Slack, or float, is the amount of time a task can be delayed without causing a delay to subsequent tasks or the project finish date. Task 'C' has the most slack indicating it can afford the most delay without impacting the project's critical path."
     },
     {
         "question": "When a project manager needs to see the critical path in the project network they complete a forward and backwards pass. What is true with respect to a backwards pass?",
@@ -63,7 +68,8 @@
             "At a merge point, the shortest preceding EF becomes the LF for that node",
             "The project manager only needs the backwards pass to see the critical path in the network"
         ],
-        "answer": "In the case of a burst point, the smallest succeeding LS becomes the LF for that node"
+        "answer": "In the case of a burst point, the smallest succeeding LS becomes the LF for that node",
+        "tips": "A backward pass calculates the late start (LS) and late finish (LF) times for project tasks, identifying the latest times tasks can start and finish without delaying the project. At burst points, multiple tasks begin after a single task, so the smallest LS of succeeding tasks sets the LF of the preceding task."
     },
     {
         "question": "Over the last four months",
@@ -74,7 +80,8 @@
             "Scope creep",
             "Project integration"
         ],
-        "answer": "Scope creep"
+        "answer": "Scope creep",
+        "tips": "Scope creep refers to uncontrolled changes or continuous growth in a project’s scope. This can occur if the scope of a project is not properly defined, documented, or controlled. It is generally considered harmful as it could lead to resource depletion or project delays."
     },
     {
         "question": "The project scope is measured against",
@@ -85,7 +92,8 @@
             "The WBS dictionary",
             "Project scope statement and WBS"
         ],
-        "answer": "Project scope statement and WBS"
+        "answer": "Project scope statement and WBS",
+        "tips": "The project scope statement and the Work Breakdown Structure (WBS) are essential documents used to measure and define what is included and excluded in the project, providing a baseline for assessing project scope."
     },
     {
         "question": "As the project manager in the planning phase of the project one of your goals is to collect customer requirements. What are considered high level expectations requirements?",
@@ -96,7 +104,8 @@
             "Project requirements",
             "Quality requirements"
         ],
-        "answer": "Business requirements"
+        "answer": "Business requirements",
+        "tips": "Business requirements are high-level statements of the goals, objectives, and needs of the organization undertaking the project. They provide a critical understanding of client expectations and align the project's outcomes with business strategy."
     },
     {
         "question": "In which organizational form does the project manager have the greatest authority over the assigned resources to their project?",
@@ -107,7 +116,8 @@
             "Weak matrix",
             "Functional"
         ],
-        "answer": "Projectized"
+        "answer": "Projectized",
+        "tips": "In a projectized organizational structure, the project manager has full authority over the project. This type of organization is designed around projects, not functional departments, and provides managers with the autonomy to allocate resources as needed."
     },
     {
         "question": "The work package is considered",
@@ -118,7 +128,8 @@
             "To be used for formal sign-off of the project",
             "The formal time reporting tool"
         ],
-        "answer": "The lowest level of a task the project manager will manage"
+        "answer": "The lowest level of a task the project manager will manage",
+        "tips": "A work package is the lowest level in the WBS and is the level at which the project manager will manage and monitor the work. It is a defined package of work that has clear start and end points and can be clearly assessed and controlled."
     },
     {
         "question": "What is an Agile framework that helps organize and address challenges attempting to manage multiple agile teams?",
@@ -129,7 +140,8 @@
             "Lean Development",
             "Scrum"
         ],
-        "answer": "SAFe"
+        "answer": "SAFe",
+        "tips": "The Scaled Agile Framework (SAFe) is an agile framework specifically designed to scale agile practices to larger organizations or projects involving multiple agile teams. It provides structure and guidance on roles and responsibilities, planning, and managing the flow of deliverables."
     },
     {
         "question": "What is the definition of a minimum releasable feature?",
@@ -140,7 +152,8 @@
             "A must have feature",
             "A small deliverable at the end of a sprint"
         ],
-        "answer": "A must have feature"
+        "answer": "A must have feature",
+        "tips": "A minimum releasable feature refers to a critical, non-negotiable feature that must be included in a product for it to be viable for release. It's essential to meeting the core requirements that provide value to the users."
     },
     {
         "question": "Agile project team work at a sustainable pace, this give the team a",
@@ -151,7 +164,8 @@
             "Is not sustainable in the work environment",
             "None of the above are true related to working at a sustainable pace"
         ],
-        "answer": "Good flow of backlog output"
+        "answer": "Good flow of backlog output",
+        "tips": "Working at a sustainable pace helps the team maintain a consistent level of productivity without burning out. This steady pace ensures a more predictable flow of work and backlog output throughout the project."
     },
     {
         "question": "What is the recommended size of a scrum team?",
@@ -162,7 +176,8 @@
             "There is no recommended number, the scrum team can be any size",
             "Minimum of 2"
         ],
-        "answer": "Typically 10 or less"
+        "answer": "Typically 10 or less",
+        "tips": "Scrum teams are most effective when they are small and manageable. A team size of 10 or less is recommended to facilitate close collaboration, quick decision-making, and effective communication."
     },
     {
         "question": "What is the Agile product roadmap?",
@@ -173,6 +188,378 @@
             "Each sprint has a potentially shippable item",
             "All the above are true of an Agile roadmap"
         ],
-        "answer": "Is a visual tool to predict a long-term view of the project"
+        "answer": "Is a visual tool to predict a long-term view of the project",
+        "tips": "The Agile product roadmap is a strategic visual summary that outlines the vision, direction, priorities, and progress of a product over time. It is a guide that aligns the organization around short and long-term goals for the product's development."
+    },
+    {
+        "question": "How is the sprint length determined for an Agile project?",
+        "options": [
+            "Large projects have longer sprints",
+            "Divide the sprint length by the number of story point then average the velocity of the team",
+            "The team agrees on a fixed length of the sprint",
+            "The customer determines the length of the sprints based on their needs",
+            "Product owner determines the length of the sprint based on their experience and needs of the customer"
+        ],
+        "answer": "The team agrees on a fixed length of the sprint",
+        "tips": "In Agile project management, the sprint length is typically determined by team consensus. The team chooses a sprint duration that allows them to work efficiently and deliver incremental value quickly."
+    },
+    {
+        "question": "The primary purpose of the standup meeting in a Scrum project is to:",
+        "options": [
+            "Give a status update and report to the scrum master",
+            "Inspect how progress is made towards the sprint goal",
+            "Pull user stories and estimate story points",
+            "Discuss the issues and problems on the project and come to a greed upon solution",
+            "Give a status update and report to the product owner"
+        ],
+        "answer": "Inspect how progress is made towards the sprint goal",
+        "tips": "The daily standup meeting in Scrum is a quick, time-boxed event where team members report on their progress towards the sprint goal, discuss any impediments they face, and plan the day's work to ensure alignment and continuity."
+    },
+    {
+        "question": "Regarding the standup meeting, what is NOT true of a stand up?",
+        "options": [
+            "Is time boxed to 15 minutes",
+            "Always starts at the same time",
+            "Product owner, scrum master and development should attend",
+            "Completed near the dashboard",
+            "Only three questions are asked of the members"
+        ],
+        "answer": "Product owner, scrum master and development should attend",
+        "tips": "While it's beneficial for the Scrum Master and development team to attend the standup meetings, it's not necessary for the product owner to be there unless there is a specific need. The focus is on the development team coordinating their day-to-day activities."
+    },
+    {
+        "question": "The burndown chart used for tracking the progress of an agile sprint tells the team or anyone that views the burndown.",
+        "options": [
+            "Project trending",
+            "List of incomplete tasks",
+            "Sprint trending",
+            "Demonstrates the tasks left to complete",
+            "C and D are correct"
+        ],
+        "answer": "Sprint trending",
+        "tips": "A burndown chart is used in Agile projects to visually show how much work remains in a sprint versus how much time remains. It helps the team understand whether they are on track to complete their tasks within the sprint timeframe."
+    },
+    {
+        "question": "If you are determining the velocity of an Agile team you would average out how many sprints?",
+        "options": [
+            "Two",
+            "Three",
+            "Four",
+            "Five",
+            "Nine"
+        ],
+        "answer": "Three",
+        "tips": "Velocity is a measure of the amount of work an Agile team can complete during a single sprint and is used to estimate future sprints. Averaging the velocity over three sprints provides a reliable, stable measure of the team's typical performance."
+    },
+    {
+        "question": "Communication is a core competency for project managers. Communications need throughout the project. It is important that the project manager knows how many communications paths there are within the project team. For a team of 35 people. How many paths of communications would there be?",
+        "options": [
+            "119",
+            "421",
+            "595",
+            "693",
+            "977"
+        ],
+        "answer": "595",
+        "tips": "The formula for calculating the number of communication paths in a project is n(n-1)/2, where 'n' is the number of team members. For 35 people, this formula gives 595 paths, indicating how complex communication can become in larger teams."
+    },
+    {
+        "question": "You have worked in the current organization, and through projects, you have now graduated to portfolio management and have a number of project managers reporting into you. Your company has secured a prestigious project of a very similar nature to the one you had executed some years back. You ask the current project manager to look up the lessons learned for the past project. This is an example of an:",
+        "options": [
+            "Organizational process assets",
+            "Projects performance reports",
+            "Projects status reports",
+            "Projects record management system",
+            "Current KPI database"
+        ],
+        "answer": "Organizational process assets",
+        "tips": "Lessons learned are part of the organizational process assets, which include documentation and data that can be used to influence future project outcomes. These assets are useful for guiding decisions and strategies in new projects."
+    },
+    {
+        "question": "Of the five project management process groups, which process consumes the most resources?",
+        "options": [
+            "Initiate",
+            "Plan",
+            "Execute and Control",
+            "Resource leveling",
+            "Project closer"
+        ],
+        "answer": "Execute and Control",
+        "tips": "The 'Execute and Control' phase of a project typically consumes the most resources as this is when the actual work is carried out and monitored. This phase involves using the plans created to build the deliverables and control any deviations from the set plans."
+    },
+    {
+        "question": "As the project manager in the planning phase of your new SW (Software) project you are reviewing the enterprise environmental factors that may or may not impact your project. Which is an Enterprise environmental factor?",
+        "options": [
+            "Lessons learned documents",
+            "Political climate",
+            "Processes",
+            "Organizations established communication channels",
+            "Both B and D"
+        ],
+        "answer": "Both B and D",
+        "tips": "Enterprise environmental factors are external and internal influences that can impact project success. These include organizational culture, infrastructure, existing human resources, and market conditions. Political climate and communication channels are examples of such factors."
+    },
+    {
+        "question": "As a project manager for a SW (SoftWare) project, you will conduct a number of team meetings with you developers. During the kick-off meeting you have a discussion to clearly explain how scope creep comes about. Of the items listed below, which would you choose as an explanation for scope creep?",
+        "options": [
+            "Involve the customer in the project planning early in the process",
+            "Poor requirement analysis",
+            "Gold plating",
+            "Introduce a robust change control process",
+            "Both B and C"
+        ],
+        "answer": "Both B and C",
+        "tips": "Scope creep can occur due to poor requirements analysis, which leads to unclear project boundaries, or through gold plating, which involves adding extra features that were not originally planned. Both practices can lead to scope creep if not managed properly."
+    },
+    {
+        "question": "Of the items listed below, which is NOT an activity duration estimate method?",
+        "options": [
+            "Three-point method (PERT)",
+            "Reserve analysis estimating",
+            "Critical path leveling estimating",
+            "Expert judgement estimating",
+            "Analogous estimating"
+        ],
+        "answer": "Critical path leveling estimating",
+        "tips": "Critical path leveling is not an estimating method; rather, it is a technique used to schedule project activities to reduce the duration and resource usage of the project. The other options listed are valid methods for estimating activity duration."
+    },
+    {
+        "question": "There are a number of contingency reserves as part of project budget. This reserve, held outside of the project by senior management is for unforeseen work that is within the scope of the project. There are monies for changes to a project that have moved through the change control process and has been approved and is called:",
+        "options": [
+            "Management reserve",
+            "Contingency reserve",
+            "Activity contingency reserve",
+            "Sunk cost reserve",
+            "Risk reserve"
+        ],
+        "answer": "Management reserve",
+        "tips": "Management reserves are funds set aside by senior management for unforeseen changes that are within the project’s scope but not identified as part of the initial planning process. These funds are used for approved scope changes after they have passed through change control."
+    },
+    {
+        "question": "When using Earned Value Analysis, which of the items below is NOT true?",
+        "options": [
+            "Always start with EV",
+            "Variance means subtraction",
+            "Index means division",
+            "Less than 1 is bad in an index",
+            "Positive numbers are bad in variance"
+        ],
+        "answer": "Positive numbers are bad in variance",
+        "tips": "In Earned Value Analysis (EVA), positive variance indicates that the project is under budget or ahead of schedule, which is typically a good sign. Negative variances indicate overruns, which are unfavorable."
+    },
+    {
+        "question": "As the project manager, you have pulled your team together to identify risk associated with your project. You have created a project prompt list to start the discussion of the items listed below, which would not be considered a prompt list category?",
+        "options": [
+            "Contract, vendors and supplies",
+            "Scope",
+            "Quality",
+            "Change",
+            "All of the above is considered a prompt category"
+        ],
+        "answer": "All of the above is considered a prompt category",
+        "tips": "A prompt list is a tool used in risk identification that lists various potential categories of risk. All the options listed are valid categories and can help guide discussions about potential project risks."
+    },
+    {
+        "question": "What would be considered an unknown, unknown risk?",
+        "options": [
+            "Scope creep",
+            "Estimating errors",
+            "Lack of testing",
+            "Assumption",
+            "Unplanned work"
+        ],
+        "answer": "Assumption",
+        "tips": "Unknown, unknown risks are risks that the project team cannot foresee or predict. Assumptions, when not validated or based on incorrect information, can lead to such risks because their impact and the probability of occurrence are not known in advance."
+    },
+    {
+        "question": "In an attempt to negotiate a contract between management and the union they have both requested toward that final arbitration process for the negotiations. What is the advantage of forced final arbitration?",
+        "options": [
+            "The two parties start with their demands much closer together",
+            "This process creates more failed negotiation that can lead to a strike",
+            "There is little compromise",
+            "The two parties start with their demands much farther apart",
+            "This is a very popular negotiation tactic in North American and used for management and union contract negotiation"
+        ],
+        "answer": "The two parties start with their demands much closer together",
+        "tips": "Forced final arbitration often leads to parties starting negotiations with closer demands because it requires each side to consider the finality of the decision made by the arbitrator, promoting more realistic initial offers."
+    },
+    {
+        "question": "One of the project manager responsibilities is to manage the budget of a project. Which statement below is true of the project manager role in managing monies?",
+        "options": [
+            "The project manager manages costs and prices",
+            "The project manager manages prices, cost and profits",
+            "The project manager manages profits",
+            "The project manager manages cost and margins",
+            "The project manager manages cost"
+        ],
+        "answer": "The project manager manages cost",
+        "tips": "Project managers are primarily responsible for managing the costs associated with a project, ensuring that the project stays within the allocated budget. They do not typically manage prices or profits, as these are often determined at higher levels of the organization."
+    },
+    {
+        "question": "Whose role is it to identify the stakeholders of a project?",
+        "options": [
+            "Senior management",
+            "Team member",
+            "Project sponsor",
+            "This is given to the project manager from the functional manager of their area or department",
+            "The project management (PMO)"
+        ],
+        "answer": "Team member",
+        "tips": "It is generally the role of the project manager to identify the stakeholders of a project. They work in collaboration with their team, including team members, to determine who has an interest or stake in the project’s outcome."
+    },
+    {
+        "question": "Once a project is introduced into an organization there will be considerable changes to the end user. As the project manager you can be tasked to lead the change for organization. From the model discussed in this course, what is meant by creating a sense of urgency?",
+        "options": [
+            "Coordinate and communicate change activities",
+            "Get people excited and worked up",
+            "Write a vision of the future",
+            "Find people that will be activists of the change",
+            "When you have win tell everyone"
+        ],
+        "answer": "Get people excited and worked up",
+        "tips": "Creating a sense of urgency involves motivating and energizing team members and stakeholders to recognize the importance of the change and to drive them to act promptly and enthusiastically."
+    },
+    {
+        "question": "Push communications is information:",
+        "options": [
+            "Sent to a specific recipient(s) who nee(s) to receive it",
+            "Between two or more parties performing a multidirectional exchange of information",
+            "Used for very large volumes of information",
+            "Used to ensure that information actually reached the intended recipient",
+            "A and C are correct"
+        ],
+        "answer": "Sent to a specific recipient(s) who nee(s) to receive it",
+        "tips": "Push communication refers to information sent directly to recipients who need to receive it, ensuring that the information is delivered to the appropriate parties. This is often used in project communications to ensure that all stakeholders are kept informed."
+    },
+    {
+        "question": "Which of the following contract type has the greatest risk with the buyer?",
+        "options": [
+            "Cost sharing",
+            "Cost-Plus-Incentive-Fee",
+            "Time and material",
+            "Firm-Fixed-Price",
+            "Fixed-Price-Incentive-Fee"
+        ],
+        "answer": "Time and material",
+        "tips": "Time and material contracts pose the greatest risk to the buyer because the final cost of the project can escalate if the time and materials used exceed estimates. The buyer bears the risk of any inefficiency or overuse of resources."
+    },
+    {
+        "question": "Heavyweight projects can collapse under the weight of their own bureaucracy while lightweight projects stand a higher risk of failing",
+        "options": [
+            "Due to errors of omission and poor communication",
+            "Due to continuous iterations",
+            "In part due to poor project management",
+            "Under estimating tasks",
+            "Due to the continued changes to the project backlog instigate by the customer"
+        ],
+        "answer": "Due to errors of omission and poor communication",
+        "tips": "Lightweight projects, often characterized by less formality and fewer processes, can fail due to errors of omission and poor communication, as there may not be enough structure to ensure that all necessary tasks are completed and all critical information is communicated."
+    },
+    {
+        "question": "As the scrum master you facilitate the planning meeting at the beginning of the sprint . What phase is the process in?",
+        "options": [
+            "Initiate phase",
+            "Retrospective",
+            "Implementation",
+            "Review meeting",
+            "Plan and estimate"
+        ],
+        "answer": "Plan and estimate",
+        "tips": "The planning meeting at the beginning of the sprint is part of the 'Plan and Estimate' phase in Scrum, where the team selects work from the product backlog to deliver during the sprint and discusses the approach to completing this work."
+    },
+    {
+        "question": "While agile estimating the recommended approach is to estimate costs with",
+        "options": [
+            "The use of a previous budget",
+            "Do no estimating",
+            "Enough information for detailed budget",
+            "The philosophy of \"just enough estimating\"",
+            "The use of an outside database"
+        ],
+        "answer": "The philosophy of \"just enough estimating\"",
+        "tips": "In Agile, the approach of 'just enough estimating' is recommended, which means estimating only as much as necessary to make decisions and plan the work, without spending excessive time on highly detailed estimates."
+    },
+    {
+        "question": "Who can add user stories to the product backlog",
+        "options": [
+            "Scrum master",
+            "Anyone",
+            "Product owner",
+            "Development team",
+            "Customer"
+        ],
+        "answer": "Product owner",
+        "tips": "In Scrum, the product owner is responsible for the product backlog, including its content, availability, and prioritization. Only the product owner has the authority to add user stories to the backlog, ensuring that the backlog aligns with the product vision and goals."
+    },
+    {
+        "question": "EAC, ETC, SPI and CPI most often appear in which type of report?",
+        "options": [
+            "Burn down",
+            "Installation plan",
+            "Status",
+            "Exception",
+            "Quality"
+        ],
+        "answer": "Status",
+        "tips": "EAC (Estimate at Completion), ETC (Estimate to Complete), SPI (Schedule Performance Index), and CPI (Cost Performance Index) are metrics used in Earned Value Management and typically appear in project status reports to provide a snapshot of project performance against the baseline."
+    },
+    {
+        "question": "After completing the EVA your project has a CPI of 1.6 and an SPI of 0.77, therefore your trending for the project is:",
+        "options": [
+            "Running over budget but ahead of schedule",
+            "Running on budget but ahead of schedule",
+            "Running over budget but behind schedule",
+            "Running under budget but ahead of schedule"
+        ],
+        "answer": "Running over budget but behind schedule",
+        "tips": "The Cost Performance Index (CPI) of 1.6 indicates that the project is under budget (each dollar spent is achieving $1.60 of work), while the Schedule Performance Index (SPI) of 0.77 indicates that the project is behind schedule (only 77% of the planned work has been completed by the planned time)."
+    },
+    {
+        "question": "The Project Management Body of Knowledge 6th edition is grounded on process inputs, tools and techniques and the new 7th edition is focused on?",
+        "options": [
+            "Tools and techniques",
+            "Delivery and performance",
+            "PMI certifications",
+            "Inputs and outputs",
+            "A and B are both correct"
+        ],
+        "answer": "Delivery and performance",
+        "tips": "The 7th edition of the PMBOK Guide shifts focus from process inputs, tools, and techniques to principles and performance domains, emphasizing the delivery of value and organizational outcomes rather than just the means of achieving them."
+    },
+    {
+        "question": "The duration of a milestone in a waterfall project is",
+        "options": [
+            "One minute",
+            "Can be any duration",
+            "Duration of the project",
+            "Is considered a work package",
+            "Has no duration"
+        ],
+        "answer": "Has no duration",
+        "tips": "In project management, a milestone is a specific point in time within a project lifecycle used to measure the progress of the project. Milestones are significant events or goals that do not have a duration; they simply mark important achievements in the project."
+    },
+    {
+        "question": "You are the project manager of a large project that spans two years in length. As the project moves from planning to execution, the farther into the project the cost to make changes:",
+        "options": [
+            "See no change",
+            "Decreases",
+            "Are absent by the mid point of the project",
+            "Increase",
+            "There costs are covered by the reserve budget"
+        ],
+        "answer": "Increase",
+        "tips": "The cost of making changes typically increases as a project progresses. This is due to the fact that changes later in the project often require rework and can affect more complex elements of the project, leading to higher costs and potential delays."
+    },
+    {
+        "question": "Communication is a core competency for project managers. Communication need managing throughout the project. It is important that the project manager knows how many communications paths there are within the project team. For a team of 35 people, how many paths of communication would there be? (Formula: n*(n-1)/2)",
+        "options": [
+            "119",
+            "421",
+            "595",
+            "693",
+            "977"
+        ],
+        "answer": "595",
+        "tips": "Using the formula for calculating the number of communication paths, n(n-1)/2, with 35 team members, results in 595 paths. This indicates a high level of complexity in communications, which the project manager must effectively manage."
     }
 ]

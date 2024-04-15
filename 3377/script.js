@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('quizForm');
     let score = 0;
     const questions = [];
-    const count = 40;
+    let count = 40;
     fetch('quiz.json')
         .then(response => response.json())
         .then(data => {
@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     question: q.question,
                     options: q.options,
                     answer: q.answer,
+                    tips: q.tips,
                     type: q.type
                 });
             });
@@ -23,11 +24,12 @@ document.addEventListener('DOMContentLoaded', () => {
             questions.forEach((q, index) => {
                 q.number = index + 1;
             });
+
+            count = questions.length;
         })
         .then(() => {
-            for(let i = 0; i < count; i++) {
-            // questions.forEach(q => {
-                const q = questions[i];
+            // for(let i = 0; i < count; i++) {
+            questions.forEach(q => {
                 const fieldset = document.createElement('fieldset');
                 const legend = document.createElement('legend');
                 legend.className = "font-semibold";
@@ -49,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
                     input.addEventListener('change', () => {
                         // Create a feedback span element to show correctness
-                        const feedback = document.createElement('span');
+                        const feedback = document.createElement('a');
                         feedback.className = "ml-2";
                         if (input.value === q.answer) {
                             score++;
@@ -58,6 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         } else {
                             feedback.textContent = `Wrong! Correct answer: ${q.answer}`;
                             feedback.style.color = "red";
+                            feedback.title = q.tips;
                         }
                         label.appendChild(feedback); // Append feedback to the label
                         // Disable all options to prevent changing the answer
@@ -68,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
                 // form.insertBefore(fieldset, form.firstChild);
                 form.appendChild(fieldset);
-            };
+            });
         });
 
     document.getElementById('submitBtn').addEventListener('click', (e) => {
